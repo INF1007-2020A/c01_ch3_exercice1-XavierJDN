@@ -3,7 +3,7 @@
 import math    
 
 def square_root(number: int) -> float:
-    square
+    square_root = number**
     return number
 
 def square(number: int) -> int:

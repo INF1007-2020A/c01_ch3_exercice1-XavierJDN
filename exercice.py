@@ -7,7 +7,7 @@ def square_root(number: int) -> float:
     return 
 
 def square(number: int) -> int:
-    sq =math**
+    square =number**
     return squared
 
 

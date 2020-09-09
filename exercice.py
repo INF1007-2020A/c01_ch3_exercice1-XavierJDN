@@ -3,8 +3,8 @@
 import math    
 
 def square_root(number: int) -> float:
-    square_root = number**
-    return number
+    square_root = number**(1/2)
+    return square_root
 
 def square(number: int) -> int:
     squared =number**(1/2)

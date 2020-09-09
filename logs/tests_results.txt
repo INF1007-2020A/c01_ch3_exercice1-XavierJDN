@@ -1,21 +1,21 @@
-test_square (__main__.TestExercice) ... ok
-test_square_root (__main__.TestExercice) ... FAIL
+test_square (__main__.TestExercice) ... FAIL
+test_square_root (__main__.TestExercice) ... ok
 
 ======================================================================
-FAIL: test_square_root (__main__.TestExercice)
+FAIL: test_square (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 33, in test_square_root
-    'Failed to calculate square roots'
-AssertionError: Lists differ: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, [342 chars], 99] != [0.0, 1.0, 1.4142135623730951, 1.7320508075[1698 chars]0662]
+  File "test_exercice.py", line 23, in test_square
+    'Failed to calculate squares'
+AssertionError: Lists differ: [0.0, 1.0, 1.4142135623730951, 1.7320508075[1698 chars]0662] != [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 1[506 chars]9801]
 
 First differing element 2:
-2
 1.4142135623730951
+4
 
-Diff is 2807 characters long. Set self.maxDiff to None to see it. : Failed to calculate square roots
+Diff is 2950 characters long. Set self.maxDiff to None to see it. : Failed to calculate squares
 
 ----------------------------------------------------------------------
-Ran 2 tests in 0.052s
+Ran 2 tests in 0.029s
 
 FAILED (failures=1)

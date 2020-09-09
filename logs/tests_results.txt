@@ -1,15 +1,5 @@
-test_square (__main__.TestExercice) ... ERROR
+test_square (__main__.TestExercice) ... ok
 test_square_root (__main__.TestExercice) ... FAIL
-
-======================================================================
-ERROR: test_square (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 17, in test_square
-    output_exo = list(map(exercice.square, self.numbers))
-  File "/home/runner/work/c01_ch3_exercice1-XavierJDN/c01_ch3_exercice1-XavierJDN/exercice.py", line 11, in square
-    return squared
-NameError: name 'squared' is not defined
 
 ======================================================================
 FAIL: test_square_root (__main__.TestExercice)
@@ -17,15 +7,15 @@ FAIL: test_square_root (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 33, in test_square_root
     'Failed to calculate square roots'
-AssertionError: Lists differ: [None, None, None, None, None, None, None,[553 chars]None] != [0.0, 1.0, 1.4142135623730951, 1.732050807[1699 chars]0662]
+AssertionError: Lists differ: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, [342 chars], 99] != [0.0, 1.0, 1.4142135623730951, 1.7320508075[1698 chars]0662]
 
-First differing element 0:
-None
-0.0
+First differing element 2:
+2
+1.4142135623730951
 
-Diff is 2946 characters long. Set self.maxDiff to None to see it. : Failed to calculate square roots
+Diff is 2807 characters long. Set self.maxDiff to None to see it. : Failed to calculate square roots
 
 ----------------------------------------------------------------------
-Ran 2 tests in 0.013s
+Ran 2 tests in 0.052s
 
-FAILED (failures=1, errors=1)
+FAILED (failures=1)
